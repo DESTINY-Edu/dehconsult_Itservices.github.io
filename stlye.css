@@ -1,0 +1,65 @@
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Hind:wght@400;600&family=Khand:wght@700&family=Martel:wght@400;600&display=swap');
+
+/* General Styles */
+body {
+    font-family: 'Martel', serif; /* Body text */
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+/* Header Styles */
+header {
+    background-color: #002147;
+    color: white;
+    padding: 20px;
+    font-family: 'Khand', sans-serif; /* Main Heading */
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+/* Subheading */
+header p {
+    font-family: 'Hind', sans-serif;
+    font-size: 1.2rem;
+}
+
+/* Navigation */
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: 'Hind', sans-serif; /* Subheading font */
+}
+
+/* Sections */
+.about, .services {
+    background: white;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    font-family: 'Martel', serif; /* Body text */
+}
+
+/* Footer */
+footer {
+    background: #002147;
+    color: white;
+    padding: 10px;
+    margin-top: 20px;
+}
